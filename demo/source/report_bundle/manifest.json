@@ -1,0 +1,15 @@
+{
+  "id": "report-bundle",
+  "name": "报告打包",
+  "version": "1.0.0",
+  "description": "打包生成一份综合结果（依赖 JSON 压缩与 CSV 报告两个能力）",
+  "triggers": ["打包", "综合", "汇总", "bundle", "联合", "compound"],
+  "capabilities": ["report-bundle"],
+  "dependencies": ["minify-json", "csv-report"],
+  "entry": "plugin.py",
+  "download": {
+    "type": "local",
+    "source": ".",
+    "version": "1.0.0"
+  }
+}

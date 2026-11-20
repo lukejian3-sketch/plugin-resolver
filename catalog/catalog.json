@@ -1,0 +1,32 @@
+{
+  "plugins": [
+    {
+      "id": "json-minify",
+      "name": "JSON 压缩",
+      "version": "1.0.0",
+      "description": "把带空白的 JSON 压缩成紧凑单行格式",
+      "triggers": ["json", "压缩", "minify", "紧凑", "瘦身"],
+      "capabilities": ["minify-json"],
+      "entry": "plugin.py",
+      "download": {
+        "type": "local",
+        "source": "demo/source/json_minify",
+        "version": "1.0.0"
+      }
+    },
+    {
+      "id": "csv-report",
+      "name": "CSV 报告生成",
+      "version": "1.0.0",
+      "description": "把二维数据写成 CSV 文本",
+      "triggers": ["csv", "报告", "表格", "report", "导出"],
+      "capabilities": ["csv-report"],
+      "entry": "plugin.py",
+      "download": {
+        "type": "local",
+        "source": "demo/source/csv_report",
+        "version": "1.0.0"
+      }
+    }
+  ]
+}

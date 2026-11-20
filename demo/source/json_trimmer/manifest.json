@@ -1,0 +1,16 @@
+{
+  "id": "json-trimmer",
+  "name": "JSON 修剪（轻量替代实现）",
+  "version": "1.0.0",
+  "description": "另一个 minify-json 能力实现，评分较低，用于演示多候选择优",
+  "triggers": ["json", "修剪", "trim", "去除空白"],
+  "capabilities": ["minify-json"],
+  "rating": 3.0,
+  "downloads": 50,
+  "entry": "plugin.py",
+  "download": {
+    "type": "local",
+    "source": ".",
+    "version": "1.0.0"
+  }
+}

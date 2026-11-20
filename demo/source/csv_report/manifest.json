@@ -1,0 +1,14 @@
+{
+  "id": "csv-report",
+  "name": "CSV 报告生成",
+  "version": "1.0.0",
+  "description": "把二维数据写成 CSV 文本",
+  "triggers": ["csv", "报告", "表格", "report", "导出"],
+  "capabilities": ["csv-report"],
+  "entry": "plugin.py",
+  "download": {
+    "type": "local",
+    "source": ".",
+    "version": "1.0.0"
+  }
+}

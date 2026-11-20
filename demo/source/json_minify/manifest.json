@@ -1,0 +1,16 @@
+{
+  "id": "json-minify",
+  "name": "JSON 压缩",
+  "version": "1.1.0",
+  "description": "把带空白的 JSON 压缩成紧凑单行格式",
+  "triggers": ["json", "压缩", "minify", "紧凑", "瘦身"],
+  "capabilities": ["minify-json"],
+  "rating": 4.8,
+  "downloads": 10000,
+  "entry": "plugin.py",
+  "download": {
+    "type": "local",
+    "source": ".",
+    "version": "1.0.0"
+  }
+}

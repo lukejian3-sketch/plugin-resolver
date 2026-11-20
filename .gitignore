@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# 运行时产物（本地状态，不入库）
+plugins/
+index.json
+
+# 生成的插件市场与发行包（用 `python tools/build_registry.py` 重建）
+registry/packages/
+registry/registry.json
+registry/registry.remote.json
+
+# 签名私钥（安全关键，永不入库；首次 build 自动生成）
+tools/signing.key
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

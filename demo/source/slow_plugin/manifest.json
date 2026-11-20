@@ -1,0 +1,14 @@
+{
+  "id": "slow-plugin",
+  "name": "慢插件（演示超时隔离）",
+  "version": "1.0.0",
+  "description": "run 里长时间 sleep，用于演示沙箱超时终止",
+  "triggers": ["慢", "slow", "卡住", "死循环"],
+  "capabilities": ["slow-job"],
+  "entry": "plugin.py",
+  "download": {
+    "type": "local",
+    "source": ".",
+    "version": "1.0.0"
+  }
+}
